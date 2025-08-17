@@ -1,0 +1,50 @@
+.cabecalho
+{
+    border: 0.15em solid black;
+    background-color: white;
+    align-items: baseline;
+    display: flex;
+}
+
+.cabecalho h1
+{
+    text-align: left;
+    padding-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    padding-right: 10em;
+     font-family: "Google Sans Code", monospace;
+}
+
+
+.cabecalho p
+{
+    text-align:right;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin:auto;
+    padding-left: 30em;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: "Google Sans Code", monospace;
+    
+}
+
+.destaque
+{
+    border: 0.15em solid black;
+    background-color: white;    
+    margin-left: 0em;
+    margin-right: 45em;
+    margin-top: 1em;
+
+}
+body
+{
+    background-color: lightblue;
+    padding: 2.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    
+}
