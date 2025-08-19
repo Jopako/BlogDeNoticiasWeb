@@ -50,10 +50,57 @@ header
     display: inline-block;
     margin: 0 20px;
 }
+
+.destaque
+{
+    display: block;
+    padding-left: 10em;
+    align-items: center;
+    justify-content: center;
+  
+}
 .destaque_conteudo
 {
-    padding: 2em 50% 2em 2em;
-    margin: 2em 50% 2em 2em;;
-    background-color: rgb(255, 255, 255);
+    padding: 0 50px;
+    margin-top: 50px;
+    margin-right: 50%;
+    padding-bottom: 50px;
+
   
+    background-color: (230, 226, 226);
+    display: block; 
+    box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.5);
+  
+    
+  
+}
+
+.destaque_conteudo h2
+{
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+ font-family: montserrat, sans-serif;
+font-weight: 700;
+font-size: 1.98em;
+color: rgb(0, 0, 0);
+text-decoration: none;
+text-align: left;
+
+}
+.destaque_conteudo p
+{
+
+ font-family: montserrat, sans-serif;
+font-weight: 500;
+font-size: 1.2em;
+color: rgb(0, 0, 0);
+padding-top: 1.7em;
+text-decoration: none;
+text-align: left;
+}
+
+img
+{
+border: 1px solid black;
+
 }
