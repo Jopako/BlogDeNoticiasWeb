@@ -58,7 +58,7 @@ header
     padding-bottom: 50px;
     align-items: center;
     justify-content: center;
-  
+
 }
 .destaque_conteudo
 {
@@ -66,6 +66,7 @@ header
     margin-top: 50px;
     margin-right: 50%;
     padding-bottom: 50px;
+    width: 100%;
 
   
     background-color: (230, 226, 226);
@@ -85,7 +86,7 @@ font-weight: 700;
 font-size: 1.98em;
 color: rgb(0, 0, 0);
 text-decoration: none;
-text-align: left;
+text-align:center;
 
 }
 .destaque_conteudo p
@@ -97,14 +98,15 @@ font-size: 1.2em;
 color: rgb(0, 0, 0);
 padding-top: 1.7em;
 text-decoration: none;
-text-align: left;
+text-align:justify;
 }
 
 img
 {
 border: 1px solid black;
 display: block;
-
+width: 475px;
+margin: auto;
 }
 
 .mark
@@ -114,4 +116,36 @@ display: block;
     font-weight: 700;
     color: black;
     border-radius: 6px;
+}
+
+.container_1
+{
+    display: flex;
+     flex-direction: column;
+    gap: 10px;
+    width: 40%;
+  padding-left: 2em;
+
+  box-shadow: 3px 10px 15px rgba(0,0,0,0.5);
+ 
+    
+}
+
+.destaque, 
+.container_1 {
+  display: inline-block;
+  vertical-align:middle;
+}
+.destaque {
+  width: 1000px;
+  padding: auto;
+}
+
+.noticias
+{
+border: 0.20em solid black;
+    margin: 2em ;
+     width: 15em;
+ height: 10em;
+    box-sizing: border-box;
 }
